@@ -3,7 +3,15 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col } from 'react-bootstrap'
 import CountdownClock from './components/CountdownClock'
-import SetLength from './components/SetLength'
+import Break from './components/Break'
+import Session from './components/Session'
+
+// state variables
+// time-remaining
+// active
+// session-length
+// break-length
+
 
 function App() {
   return (
@@ -15,10 +23,10 @@ function App() {
       </Row>
       <Row className="bg-white flex-fill">
         <Col sm>
-          <SetLength />
+          <Session />
         </Col>
         <Col sm>
-          <SetLength />
+          <Break />
         </Col>
       </Row>
     </Container>
