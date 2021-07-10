@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button, Container, Row} from 'react-bootstrap'
 
+// component for controlling session length
 function Session(props) {
   return (
     <Container className="p-1 p-lg-5 text-success">
