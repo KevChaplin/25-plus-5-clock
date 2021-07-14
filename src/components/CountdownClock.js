@@ -1,6 +1,7 @@
 import React from 'react';
 import {Container, Row, Button } from 'react-bootstrap'
 
+// compoonent for controlling countdown timer, including work status; timer, and play/pause and reset buttons
 function CountdownClock(props) {
 
 // format number with leading zeros if single digit number
@@ -22,8 +23,8 @@ function CountdownClock(props) {
         <h1 id="time-left" className="display-1 font-weight-bold">{displayTime}</h1>
       </Row>
       <Row className="justify-content-around">
-        <Button id="start_stop" className="btn-success btn-lg btn-outline-light font-weight-bold" onClick={props.handleStartStop}>play/pause</Button>
-        <Button id="reset" className="btn-success btn-lg btn-outline-light font-weight-bold" onClick={props.handleReset}>reset</Button>
+        <Button id="start_stop" className={props.btnStyle} onClick={props.handleStartStop}>play/pause</Button>
+        <Button id="reset" className={props.btnStyle} onClick={props.handleReset}>reset</Button>
       </Row>
     </Container>
   )
