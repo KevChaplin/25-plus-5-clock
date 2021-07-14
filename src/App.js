@@ -12,11 +12,11 @@ function App() {
   const [session, setSession] = useState(25);
   const [sbreak, setSbreak] = useState(5);
   const [active, setActive] = useState(false);
-  const [time, setTime] = useState(5);
+  const [time, setTime] = useState(1500);
   const [working, setWorking] = useState(true);
   const [theme, setTheme] = useState("success")
 
-// interval timer
+// countdown timer
   useEffect(() => {
     if (active) {
       const interval = setInterval(() => setTime(time - 1), 1000);
@@ -24,7 +24,7 @@ function App() {
     }
   }, [time, active])
 
-  // switch modes between work and break at time 0
+  // switch modes between work and break at time 0, delayed so that timer reads 00:00 for one second
     if (time === 0) {
       document.getElementById("beep").play()
       function sessionSwitch() {
@@ -50,7 +50,7 @@ function App() {
     } else {
       if (session < 60) {
         setSession(session + 1)
-        if (working && time > 60) {setTime(time + 60)}
+        if (working) {setTime(time + 60)}
       }
     }
   }
@@ -62,8 +62,9 @@ function App() {
         setSbreak(sbreak - 1)
         if (!working  && time > 60) {setTime(time - 60)}}
     } else {
-      if (sbreak < 60) {setSbreak(sbreak + 1)
-        if (!working  && time > 60) {setTime(time + 60)}
+      if (sbreak < 60) {
+        setSbreak(sbreak + 1)
+        if (!working) {setTime(time + 60)}
       }
     }
   }
