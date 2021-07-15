@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/25-plus-5-clock/static/css/main.bb796b9a.chunk.css",
+    "main.js": "/25-plus-5-clock/static/js/main.247b622c.chunk.js",
+    "main.js.map": "/25-plus-5-clock/static/js/main.247b622c.chunk.js.map",
+    "runtime-main.js": "/25-plus-5-clock/static/js/runtime-main.1b003c52.js",
+    "runtime-main.js.map": "/25-plus-5-clock/static/js/runtime-main.1b003c52.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/25-plus-5-clock/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.71659753.chunk.js": "/25-plus-5-clock/static/js/2.71659753.chunk.js",
+    "static/js/2.71659753.chunk.js.map": "/25-plus-5-clock/static/js/2.71659753.chunk.js.map",
+    "static/js/3.1f989e12.chunk.js": "/25-plus-5-clock/static/js/3.1f989e12.chunk.js",
+    "static/js/3.1f989e12.chunk.js.map": "/25-plus-5-clock/static/js/3.1f989e12.chunk.js.map",
+    "index.html": "/25-plus-5-clock/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/25-plus-5-clock/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.bb796b9a.chunk.css.map": "/25-plus-5-clock/static/css/main.bb796b9a.chunk.css.map",
+    "static/js/2.71659753.chunk.js.LICENSE.txt": "/25-plus-5-clock/static/js/2.71659753.chunk.js.LICENSE.txt",
+    "static/media/Meditation-bell-sound-effect.72379061.mp3": "/25-plus-5-clock/static/media/Meditation-bell-sound-effect.72379061.mp3"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b003c52.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.71659753.chunk.js",
+    "static/css/main.bb796b9a.chunk.css",
+    "static/js/main.247b622c.chunk.js"
+  ]
+}
