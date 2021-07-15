@@ -1,6 +1,7 @@
 {
   "name": "fcc-25-plus-5-clock",
   "version": "0.1.0",
+  "homepage": "https:///KevChaplin.github.io/25-plus-5-clock",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
