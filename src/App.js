@@ -91,6 +91,11 @@ function App() {
 
   return (
     <Container fluid="lg" className="d-flex flex-column vh-100 justify-content-around justify-content-md-start">
+      <Row className="justify-content-around">
+        <header>
+          <h1 className={`text-center font-weight-bold text-${theme}`}>25 + 5 Timer</h1>
+        </header>
+      </Row>
       <Row className={rowStyle}>
         <Col className="m-auto">
           <CountdownClock time={time} working={working} handleReset={handleReset} handleStartStop={handleStartStop} btnStyle={btnStyle}/>
